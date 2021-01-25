@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+
+body {
+  background-color: #262833;
+}
+
+.subpage {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  margin-top: 14%;
+}
+.subme {
+  float: left;
+  margin-top: 16%;
+}
+
+.subme h1 {
+  color: #bf4330;
+  padding-bottom: 6%;
+  font-family: "Bungee", cursive;
+  font-size: 3.5rem;
+}
+
+.subme input {
+  border-radius: 7px;
+  background: #eee;
+  padding: 0.5em 1em;
+  width: 14em;
+  height: 2em;
+  margin: 0.5em;
+  outline: none;
+  border: none;
+  color: #222;
+  transition: 0.3s linear;
+}
+
+.subme button {
+  border-radius: 6px;
+  color: #ffe7c2;
+  background-color: #d65e4b;
+  padding: 0.75em;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.subme button:hover {
+  background-color: #6bbcff;
+}
+
+.subimg {
+  float: right;
+}
+
+.subimg img {
+  width: 85%;
+  height: auto;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+  .subpage {
+    grid-template-columns: 100%;
+    margin-top: 2%;
+  }
+  .subimg {
+    margin-top: 15%;
+  }
+}
