@@ -76,8 +76,8 @@ figcaption {
   text-align: center;
   font-family: "Bungee", cursive;
   font-size: 4rem;
-  margin-top: 0.5;
   margin-bottom: 0;
+  padding-top: 0;
 }
 
 .intro h3 {
@@ -96,13 +96,26 @@ figcaption {
   color: white;
 }
 
+.info img {
+  width: 85%;
+  height: auto;
+  text-align: center;
+}
+
 .about {
+  width: 90%;
   margin-top: 12%;
+  text-align: center;
 }
 
 .about h3 {
   font-family: "Bungee", cursive;
   font-size: 2.2rem;
+}
+
+.about p {
+  height: fit-content;
+  font-size: 1.3rem;
 }
 
 
@@ -111,7 +124,17 @@ figcaption {
     grid-template-columns: 100%;
     margin-top: 2%;
   }
+  .subme h1 {
+    font-size: 3rem;
+  }
   .subimg {
     margin-top: 15%;
   }
+  .info {
+    grid-template-columns: 100%;
+  }
+  .about {
+    width: auto;
+  }
+  
 }

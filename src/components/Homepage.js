@@ -9,7 +9,7 @@ class Homepage extends React.Component {
     return (
       <div className="homepage">
         <Subpage header="Junior Aranıyor" />
-        <İntro />
+        <İntro header="Ayda İki Kez" short="Mail kutunu kontrol etmeyi unutma !" />
         <İnfo />
       </div>
     );
