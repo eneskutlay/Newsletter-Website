@@ -1,5 +1,7 @@
 import React from "react";
 import Subpage from "./pages/Subpage";
+import İntro from "./pages/İntro";
+import İnfo from "./pages/İnfo"
 
 
 class Homepage extends React.Component {
@@ -7,6 +9,8 @@ class Homepage extends React.Component {
     return (
       <div className="homepage">
         <Subpage header="Junior Aranıyor" />
+        <İntro />
+        <İnfo />
       </div>
     );
   }
